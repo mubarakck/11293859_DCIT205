@@ -1,8 +1,14 @@
 style.css
-.qwert {
-  background-color: blue;
-}
 
 body{ 
   background-color: blanchedalmond;
-}
+  }
+  .head {
+    height: 100px;
+    width: 450px;
+    background-color: yellow;
+    color: blue;
+    border-radius:15px;
+    font-size: larger;
+    font-weight: 700;
+  }
