@@ -93,7 +93,7 @@ p{
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
-}
+ } 
   .row{
     margin-top: 5%;
     display: flex;
@@ -105,7 +105,7 @@ p{
     border-radius: 15px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    box-sizing: border-box;
+   box-sizing: border-box;                   
     cursor: pointer;
     transition: 0.5s;
   }
@@ -176,6 +176,7 @@ h3{
   padding-top: 50px;
 }
 .ccna{
+  display: block;
   flex-basis:32%;
   border-radius: 10px;
   margin-bottom:30px;
@@ -254,6 +255,10 @@ h3{
   opacity: 0.5;
   transition: 1s;
 }
+
+
+
+/*-----------------------call to action (cta)------------*/
 .cta{
   background-color: white;
   margin: 100px auto;
@@ -382,10 +387,68 @@ font-weight: 700;
   outline:none;
   background:#f0f0f0;
 }
-.comment-form{
-  margin:10px 0;
+
+
+
+
+/*----------------Contact US Page-------------*/
+.location{
+  width: 80%;
+  margin:auto;
+  padding: auto;
+}
+.location iframe{
+  width: 100%;
+}
+.contact-us{
+  background-color: white;
+  text-align: center;
+  flex-basis: 48%;
+  margin: auto;
 }
 
+.contact-col{
+flex-basis:48%;
+margin-bottom: 30px;
+margin-left: 400px;
+}
+
+/*---------------nae-----------------*/
+
+.upcoming{
+  display: block;
+  box-sizing: border-box;
+  color:#777;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  position:relative;
+  padding:20px 0px;
+  background-color: rgb(208, 202, 202);
+  text-align: center;
+  border-radius: 30px;  
+}
+.nae{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/under_grad_main.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.nae h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .nae h1{
+    font-size: 24px;
+  }
+}
 
 
 
