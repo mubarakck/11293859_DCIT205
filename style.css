@@ -194,6 +194,7 @@ h3{
 }
 .layer {
   background: rgb(44, 42, 88);
+  border-radius: 15px;
   height: 50%;
   width: 100%;
   color: white;
@@ -450,13 +451,120 @@ margin-left: 400px;
   }
 }
 
+/* -----------FACULTY AND STAFF-------- */
+.fast{
+  background-color:rgb(126, 121, 121);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
 
+.fas{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width:700px){
+  .fas{
+    flex-direction: column;
+  }
+}
 
+/* prospective student  */
 
+.upcoming:hover{
+opacity: 0.9;
+}
+.aca1{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join1.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca1 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca1 h1{
+    font-size: 24px;
+  }
+}
 
-
-
-
+.aca2{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join2.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca2 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca2 h1{
+    font-size: 24px;
+  }
+}
+.aca3{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join3.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca3 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca3 h1{
+    font-size: 24px;
+  }
+}
+.aca4{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join4.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca4 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca4 h1{
+    font-size: 24px;
+  }
+}
 
 
 
