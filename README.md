@@ -1,5 +1,6 @@
 # DCIT_205_IA
 PURPOSE OF THE WEBSITE
+
 The website created is an informative and interactive website that give insight about the Department of Computer Science at the University of Ghana in 10 pages to students, faculty and non -students who need to access information about the University of Ghana Computer Science Department. It contains 10 .html files representing the pages and one universally linked. Css that provides a good level of design and interactivenes to the website. 
 The various pages of the website that were created are;
 •	Index/homepage
@@ -17,23 +18,17 @@ And
 The use of images and videos that were stored in an images & videos folder respectively were employed in all pages in the creation of this website.  Adequate links such as a link to a map and links to the C.S.S. file containing all their styles on it. Pages and registration have also been included in the created website. Throughout the period of creating this website, its timeline was regularly uploaded to a github repository that was ‘forked’ from Daquiver1/DCIT_205_IA, named 11293859_DCIT205.
 
 How to clone and set up the project.
-To clone and set up the project, the following files and folder should be all included in a parent folder of your select name preferably, 11293859_DCIT205;
-•	Index.html
-•	About.html
-•	Courses.html
-•	Blog.html 
-•	Contact us.html
-•	News and events.html
-•	Academics.html
-•	Alumni.html
-•	Faculty and staff.html
-And 
-•	Prospective students page.html
-•	Styles.css
-•	Images(folder)
-•	Videos(folder)
-After putting all the above files and folders in to one ‘parent folder’ you can open the ‘index.html’ in website of your choosing, preferably ‘chrome’ or ‘edge’ and after that take you to the homepage of the website from where you will see the navigation links that have been linked to the other individual pages directly in the html file allowing ease of access as the links on the webpage will directly send you to their linked individual pages.
 
+
+
+To clone and set up the project, click on the following link to the projects location in github;
+
+https://github.com/mubarakck/11293859_DCIT205.git
+
+On GitHub.com, navigate to the main page of the repository.
+Above the list of files, click Code.
+To clone and open the repository with GitHub Desktop, click Open with GitHub Desktop.
+Follow the prompts in GitHub Desktop to complete the clone.
 
 
 The Website was prepared by ABDUL-RASHID MUBARAK WUMPINI - 11293859
